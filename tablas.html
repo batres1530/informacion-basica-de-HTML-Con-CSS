@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
-   
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
-<body background="imagenes/wb2.png" >
-    <header>
-        <div style="background-color: black; padding: 10px;">
-            <div style="text-align: center ;">
-                <table style="width: 100%;">
-                    <tr>
-                        <td><a href="index.html"    style="color: white; text-decoration: none;">Inicio</a></td>
-                        <td><a href="tablas.html"   style="color: white; text-decoration: none;">Tablas</a></td>
-                        <td><a href="texto.html"    style="color: white; text-decoration: none;">Texto</a></td>
-                        <td><a href="agrupacion.html"    style="color: white;  text-decoration: none;">Agrupación</a></td>
-                        <td><a href="formularios.html"   style="color: white;  text-decoration: none;">Formularios</a></td>
-                        <td><a href="input.html"         style="color: white;  text-decoration: none;">Input</a></td>
-                    </tr>
-                </table>
-            </div>      
-        </div>
+
+<body class="fondo">
+    <!-- Menú de Navegación -->
+    <header class="tablas">
+        <table style="width: 100%;">
+            <tr>
+                <td><a href="index.html" class="menu">Inicio</a></td>
+                <td><a href="tablas.html" class="menu">Tablas</a></td>
+                <td><a href="texto.html" class="menu">Texto</a></td>
+                <td><a href="agrupacion.html" class="menu">Agrupación</a></td>
+                <td><a href="formularios.html" class="menu">Formularios</a></td>
+                <td><a href="input.html" class="menu">Input</a></td>
+            </tr>
+        </table>
     </header>
-    
-    <div style="background-color: white; padding: 10px; ">
-    <div style="text-align: left center justify;">
 
-        <h1>Las Tablas</h1>
-        <P>Las tablas se utilizan para organizar datos en filas y columnas, ideales para mostrar información estructurada como horarios, 
-            <br>  listas de precios o informes. Aunque no son el método preferido para crear el diseño general una página, siguen siendo útiles
-            <br> para la presentación de datos tabulares.</P>
-            <img src="/imagenes/tabla.png" alt="Descripción de la imagen" title="imagen de ejemplo de tabla" align="right" width="600" height="350">
-            
-            <ul><h2> Ejemplo de tabla </h2></ul>
-            <li><b>Estructura Básica de una Tabla HTML</b></li>
-            <ol>
-                <li>La etiqueta <code> &lt;table> </code> define una tabla.</li>
-                <li><code>  &lt;tr> </code>(fila de la tabla): Define una fila en la tabla.</li>
-                <li><code> &lt;th> </code>(encabezado de tabla): Defina una celda de encabezado en una fila.</li>
-                <li><code> &lt;td> </code>(datos de tabla): Defina una celda de datos en una fila.</li>
-            </ol>
+    <br>
 
-            <h3>Ejemplo de tabla</h3>
+    <!-- Contenido Principal -->
+    <div class="contenedor">
+        <main class="main">
+            <h1 class="center">Las Tablas</h1>
+            <p class="center">Las tablas se utilizan para organizar datos en filas y columnas, ideales para mostrar
+                información estructurada como horarios, listas de precios o informes. Aunque no son el método preferido
+                para crear el diseño general de una página, siguen siendo útiles para la presentación de datos
+                tabulares.</p>
 
-            <table  border="1" cellspacing="0" cellpadding="8"  align="
-            left">
+            <img src="/imagenes/tabla.png" class="imagenes" title="Imagen de ejemplo de tabla"
+                alt="Descripción de la imagen">
+
+            <h2 class="center">Ejemplo de Tabla</h2>
+
+            <!-- Ejemplo de Tabla Simple -->
+            <table border="1" cellspacing="0" cellpadding="8" class="center">
                 <tr>
                     <th>Nombre</th>
                     <th>Apellido</th>
@@ -53,100 +53,72 @@
                 </tr>
                 <tr>
                     <td>Juan</td>
-            <td>Perez</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>Pedro</td>
-            <td>Perez</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>Luis</td>
-            <td>Perez</td>
-            <td>30</td>
-        </tr>
-    </table>
-        
-        <table  border="1" cellspacing="0" cellpadding="8"  align="center">
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Edad</th>
-            </tr>
-            <tr>
-                <td>Juan</td>
-        <td>Perez</td>
-        <td>25</td>
-    </tr>
-    <tr>
-        <td>Pedro</td>
-        <td>Perez</td>
-        <td>25</td>
-    </tr>
-    <tr>
-        <td>Luis</td>
-        <td>Perez</td>
-        <td>30</td>
-    </tr>
-</table>
+                    <td>Pérez</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>Pérez</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>Luis</td>
+                    <td>Ramírez</td>
+                    <td>30</td>
+                </tr>
+            </table>
 
-<br>
-<h3>Atributos y Propiedades Útiles</h3>
-<ul>
-   <li> <b> border:</b> Defina el grosor del borde de la tabla (aunque es mejor usar CSS para esto).</li>
-   <li> <b>colspan:</b> Permite que una celda abarque varias columnas.</li>
-   <li> <b>rowspan: </b>Permite que una celda abarque varias filas.</li>
-</ul>
- <h3> Ejemplo de una tabla con colspan</h3>
- <table border="1">
-    <tr>
-      <th colspan="2">Información Personal</th>
-    </tr>
-    <tr>
-      <td>Nombre</td>
-      <td>Edad</td>
-    </tr>
-    <tr>
-      <td>Ana</td>
-      <td>25</td>
-    </tr>
-  </table>
-  
-</div>
+            <br>
 
+            <h3 class="center">Atributos y Propiedades Útiles</h3>
+            <ul>
+                <li><b>border:</b> Define el grosor del borde de la tabla (es mejor usar CSS para esto).</li>
+                <li><b>colspan:</b> Permite que una celda abarque varias columnas.</li>
+                <li><b>rowspan:</b> Permite que una celda abarque varias filas.</li>
+            </ul>
 
+            <!-- Ejemplo de Tabla con colspan -->
+            <h3 class="center">Ejemplo de una Tabla con colspan</h3>
 
+            <table border="1" cellspacing="10" cellpadding="8" lift="center">
+                <tr>
+                    <th colspan="2">Información Personal</th>
+                </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Edad</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>25</td>
+                </tr>
+            </table>
+        </main>
 
-
-
-
-
-
-
-</div>
-    <footer>
+        <!-- Pie de Página -->
         <hr>
-        <div style="background-color: black; padding: 10px;">
-            <div style="text-align: center;">
-                <div style="color: white; text-decoration: none;" >
-                    <p>&copy; 2024 MiprimersitioWeb. Todos los derechos reservados.</p>
-                    <p>
-                      <a href="contacto.html " style="color: white; text-decoration: none;">Contacto</a> |
-                      <a href="privacidad.html" style="color: white; text-decoration: none;">Términos de Servicio</a> |
-                      <a href="privacidad.html" style="color: white; text-decoration: none;">Política de Privacidad</a>
-                    </p>
-                    <p>
-                      Sígueme en:
-                      <a href="https://www.facebook.com" style="color: white; text-decoration: none;" target="_blank">Facebook</a> |
-                      <a href="https://github.com/batres1530" style="color: white; text-decoration: none;" target="_blank">Github</a> |
-                      <a href="https://www.linkedin.com/in/sergio-david-batres-mart%C3%ADnez-2a0550314/"style="color: white; text-decoration: none;" target="_blank">linkedin</a>
-                    </p>
-                   
+        <footer class="footer">
+            <div class="center">
+                <div style="text-align: center;">
+                    <div class="menu">
+                        <p>&copy; 2024 MiprimersitioWeb. Todos los derechos reservados.</p>
+                        <p>
+                            <a href="privacidad.html" class="menu">Términos de Servicio</a> |
+                            <a href="contacto.html" class="menu">Contacto</a> |
+                            <a href="privacidad.html" class="menu">Política de Privacidad</a>
+                        </p>
+                        <p>
+                            Sígueme en:
+                            <a href="https://www.facebook.com" class="menu" target="_blank">Facebook</a> |
+                            <a href="https://github.com/batres1530" class="menu" target="_blank">Github</a> |
+                            <a href="https://www.linkedin.com/in/sergio-david-batres-mart%C3%ADnez-2a0550314/"
+                                class="menu" target="_blank">LinkedIn</a>
+                        </p>
+                    </div>
                 </div>
-            </div>      
-        </div>
-    
-    </footer>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

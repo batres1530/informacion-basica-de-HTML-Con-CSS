@@ -1,0 +1,53 @@
+html {
+  font-family: "¨Montserrat¨", sans-serif;
+}
+.fondo {
+  background-image: url("imagenes/wb2.png");
+  background-position: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1px;
+}
+.contenedor {
+  width: 750px;
+  margin: 0px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+
+  border-radius: 10px;
+}
+.tablas {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+.main {
+  text-align: left left justify;
+}
+.menu {
+  color: white;
+  text-decoration: none;
+}
+
+.imagenes {
+  width: 280px;
+  height: 200px;
+  float: right;
+  border-radius: 10px;
+}
+.center {
+  text-align: center;
+}
+.footer {
+  background-color: black;
+  padding: 10px;
+}
+justify {
+  text-align: justify;
+}
+.imagenesf {
+  width: 350px;
+  height: 250px;
+  float: right;
+  border-radius: 10px;
+}

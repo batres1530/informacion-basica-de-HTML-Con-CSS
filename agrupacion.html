@@ -1,98 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrupación de contenido</title>
-   
+    <title>Agrupación de Contenido</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
-<body background="imagenes/wb2.png" ">
-    <header>
-        <div style="background-color: black; padding: 10px;">
-            <div style="text-align: center ;">
-                <table style="width: 100%;">
-                    <tr>
-                        <td><a href="index.html"    style="color: white; text-decoration: none;">Inicio</a></td>
-                        <td><a href="tablas.html"   style="color: white; text-decoration: none;">Tablas</a></td>
-                        <td><a href="texto.html"    style="color: white; text-decoration: none;">Texto</a></td>
-                        <td><a href="agrupacion.html"    style="color: white;  text-decoration: none;">Agrupación</a></td>
-                        <td><a href="formularios.html"   style="color: white;  text-decoration: none;">Formularios</a></td>
-                        <td><a href="input.html"         style="color: white;  text-decoration: none;">Input</a></td>
-                    </tr>
-                </table>
-            </div>      
-        </div>
+
+<body class="fondo">
+    <!-- Menú de Navegación -->
+    <header class="tablas">
+        <table style="width: 100%;">
+            <tr>
+                <td><a href="index.html" class="menu">Inicio</a></td>
+                <td><a href="tablas.html" class="menu">Tablas</a></td>
+                <td><a href="texto.html" class="menu">Texto</a></td>
+                <td><a href="agrupacion.html" class="menu">Agrupación</a></td>
+                <td><a href="formularios.html" class="menu">Formularios</a></td>
+                <td><a href="input.html" class="menu">Input</a></td>
+            </tr>
+        </table>
     </header>
-    
-    <div style="background-color: white; padding: 10px; ">
 
-        <img src="/imagenes/agrupacion.png" alt="Descripción de la imagen" title="imagen de ejemplo de tabla" align="right" width="550" height="300">
-<h1>Las etiquetas de agrupación</h1>
-<p>Las etiquetas de agrupación en HTML permiten organizar y estructurar el contenido de una página web de manera lógica.<br>
-Estas etiquetas son útiles para crear secciones, dividir contenido y mejorar la accesibilidad y la presentación A continuación,<br> te explico las principales etiquetas de agrupación:</p>
+    <br>
 
-<h2>Principales Etiquetas de Agrupación en HTML</h2>
-<ol>
-    <li>LA Etiqueta DIV</li>
-    <ul>
-        <li>La etiqueta < div > es un contenedor genérico que agrupa contenido. Se utiliza combinado con CSS para aplicar <br> estilos a bloques de contenido.</li>
-        <li>No tiene un significado semántico por sí mismo, pero permite agrupar elementos para facilitar el diseño.</li>
-    </ul>
-    <li>LA Etiqueta span</li>
-    <ul>
-        <li>La etiqueta < span > es un contenedor en línea que permite agrupar texto o elementos sin alterar su flujo. Es útil <br> para aplicar estilos específicos a partes del texto.</li>
-        <img src="/imagenes/agrupar2.png" alt="Descripción de la imagen" title="imagen de ejemplo de tabla" align="right" width="550" height="250">
-    </ul>
-    <li>LA Etiqueta < section ></li>
-    <ul>
-        <li>La etiqueta < section >representa una sección genérica de contenido en un documento. Se utiliza para agrupar    <br>contenido temático y generalmente debe incluir un encabezado.</li>    
-    </ul>
-    <li>LA Etiqueta < article > </li>
-    <ul>
-        <li>La etiqueta < article >representa un contenido independiente que podría ser distribuido o reutilizado de forma  <br>independiente, como un artículo de blog, un comentario o una noticia.</li>
-    </ul>
-    <li>LA Etiqueta < footer > </li>
-    <ul>
-        <li>La etiqueta < footer >representa un bloque de contenido que se ubica al final de la página y se utiliza para <br> proporcionar información sobre el contenido de la página, como un enlace a un sitio web o un enlace a un archivo PDF.</li>
-    </ul>
-    <li>LA Etiqueta < header > </li>
-    <ul>
-        La etiqueta < header > se utiliza para definir el encabezado de un documento o una sección, incluyendo logotipos, <br> títulos y enlaces de navegación.        </ul>
-    </ol>      
+    <!-- Contenido Principal -->
+    <div class="contenedor">
+        <main class="main">
+            <img src="/imagenes/agrupacion.png" class="imagenes" title="Imagen de agrupación"
+                alt="Descripción de la imagen">
 
+            <h1 class="center">Las Etiquetas de Agrupación</h1>
+            <p>Las etiquetas de agrupación en HTML permiten organizar y estructurar el contenido de una página web de
+                manera lógica. Estas etiquetas son útiles para crear secciones, dividir contenido y mejorar la
+                accesibilidad y la presentación.</p>
 
+            <h2>Principales Etiquetas de Agrupación en HTML</h2>
+            <ol>
+                <li><b>Etiqueta &lt;div&gt;</b></li>
+                <ul>
+                    <li>La etiqueta <code>&lt;div&gt;</code> es un contenedor genérico que agrupa contenido. Se utiliza
+                        junto con CSS para aplicar estilos a bloques de contenido.</li>
+                    <li>No tiene un significado semántico por sí mismo, pero permite agrupar elementos para facilitar el
+                        diseño.</li>
+                </ul>
 
+                <li><b>Etiqueta &lt;span&gt;</b></li>
+                <ul>
+                    <li>La etiqueta <code>&lt;span&gt;</code> es un contenedor en línea que permite agrupar texto o
+                        elementos sin alterar su flujo. Es útil para aplicar estilos específicos a partes del texto.
+                    </li>
+                    <img src="/imagenes/agrupar2.png" class="imagenes" title="Imagen de ejemplo de agrupación"
+                        alt="Descripción de la imagen">
+                </ul>
 
+                <li><b>Etiqueta &lt;section&gt;</b></li>
+                <ul>
+                    <li>La etiqueta <code>&lt;section&gt;</code> representa una sección genérica de contenido en un
+                        documento. Se utiliza para agrupar contenido temático y generalmente incluye un encabezado.</li>
+                </ul>
 
+                <li><b>Etiqueta &lt;article&gt;</b></li>
+                <ul>
+                    <li>La etiqueta <code>&lt;article&gt;</code> representa un contenido independiente que podría ser
+                        distribuido o reutilizado de forma independiente, como un artículo de blog, un comentario o una
+                        noticia.</li>
+                </ul>
 
+                <li><b>Etiqueta &lt;footer&gt;</b></li>
+                <ul>
+                    <li>La etiqueta <code>&lt;footer&gt;</code> representa un bloque de contenido que se ubica al final
+                        de la página y se utiliza para proporcionar información adicional, como enlaces y derechos de
+                        autor.</li>
+                </ul>
 
-
-
-
-</div>
-    <footer>
+                <li><b>Etiqueta &lt;header&gt;</b></li>
+                <ul>
+                    <li>La etiqueta <code>&lt;header&gt;</code> se utiliza para definir el encabezado de un documento o
+                        una sección, incluyendo logotipos, títulos y enlaces de navegación.</li>
+                </ul>
+            </ol>
+        </main>
         <hr>
-        <div style="background-color: black; padding: 10px;">
-            <div style="text-align: center;">
-                <div style="color: white; text-decoration: none;" >
+        <!-- Pie de Página -->
+        <footer class="footer">
+            <div class="center">
+                <div class="menu">
                     <p>&copy; 2024 MiprimersitioWeb. Todos los derechos reservados.</p>
                     <p>
-                      <a href="contacto.html " style="color: white; text-decoration: none;">Contacto</a> |
-                      <a href="privacidad.html" style="color: white; text-decoration: none;">Términos de Servicio</a> |
-                      <a href="privacidad.html" style="color: white; text-decoration: none;">Política de Privacidad</a>
+                        <a href="privacidad.html" class="menu">Términos de
+                            <a href="contacto.html " class="menu">Contacto</a> |
+                            Servicio</a> |
+                        <a href="privacidad.html" class="menu">Política de
+                            Privacidad</a>
                     </p>
                     <p>
-                      Sígueme en:
-                      <a href="https://www.facebook.com" style="color: white; text-decoration: none;" target="_blank">Facebook</a> |
-                      <a href="https://github.com/batres1530" style="color: white; text-decoration: none;" target="_blank">Github</a> |
-                      <a href="https://www.linkedin.com/in/sergio-david-batres-mart%C3%ADnez-2a0550314/"style="color: white; text-decoration: none;" target="_blank">linkedin</a>
+                        Sígueme en:
+                        <a href="https://www.facebook.com" class="menu" target="_blank">Facebook</a> |
+                        <a href="https://github.com/batres1530" class="menu" target="_blank">Github</a> |
+                        <a href="https://www.linkedin.com/in/sergio-david-batres-mart%C3%ADnez-2a0550314/" class="menu"
+                            target="_blank">linkedin</a>
                     </p>
-                   
                 </div>
-            </div>      
-        </div>
-    
-    </footer>
-    
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
